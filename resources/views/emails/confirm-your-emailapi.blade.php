@@ -3,7 +3,7 @@
 
 We need to confirm your email
 
-@component('mail::button', ['url' => 'http://localhost:8000/API/register/confirm/' . '?token=' . $user->confirm_token])
+@component('mail::button', ['url' => 'http://castcast.tk/API/register/confirm/' . '?token=' . $user->confirm_token])
 Confirm Email
 @endcomponent
 
