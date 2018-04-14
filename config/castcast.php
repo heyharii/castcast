@@ -3,7 +3,7 @@
 
 return [
     'administrators'=>[
-        'neogalaxy45@gmail.com'
+        'admin@admin.com'
     ]
 ];
 ?>
