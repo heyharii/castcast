@@ -4,7 +4,8 @@
         <button class="btn btn-success" @click="subscribe('monthly')">Subscribe to $9.99 Monthly</button>
         <button class="btn btn-info" @click="subscribe('yearly')">Subscribe to $99.9 Yearly</button>
     </div>
-     <p>Card Number Test Mode : 4242 4242 4242 4242</p>
+   
+   
 
 </template>
 

@@ -8,6 +8,8 @@
       <div class="col-12 col-lg-8 offset-lg-2">
 
         <h1>Subscribe to our awesome site</h1>
+        <p>Card Number Test Mode : 4242 4242 4242 4242</p>
+    
       </div>
     </div>
 
