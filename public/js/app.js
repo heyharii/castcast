@@ -48047,9 +48047,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("p", { staticClass: "text-center text-muted fs-13 mt-20" }, [
       _vm._v("Don't have an account? "),
-      _c("a", { attrs: { href: "http://localhost:8000/register" } }, [
-        _vm._v("Sign up")
-      ])
+      _c("a", { attrs: { href: "/register" } }, [_vm._v("Sign up")])
     ])
   }
 ]
