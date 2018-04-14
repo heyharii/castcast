@@ -25,14 +25,8 @@ $subscription = auth()->user()->subscriptions->first();
 <section class="section" id="section-vtab">
     @if(!$subscription)
     <div class="container text-center">
-      
-    @if(auth()->user()->confirm_token !== null)
-    <div class="badge badge-warning" style="font-size:20px">
-      Please verify your email address first !
-    </div>
-    @else
-        <vue-stripe email="{{ auth()->user()->email }}"></vue-stripe>
-    @endif
+   
+    <vue-stripe email="{{ auth()->user()->email }}"></vue-stripe>
 
     </div>
     @else
